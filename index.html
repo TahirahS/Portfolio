@@ -26,14 +26,20 @@
 
     <section id="projects">
         <h3>Projects</h3>
-        <article>
-            <h4>Science Fair Project - Renewable Energy</h4>
-            <p><strong>Description:</strong> Developed a solar oven to demonstrate renewable energy principles.</p>
-            <p><strong>Process:</strong> Researched materials, built the oven, and tested its efficiency.</p>
-            <p><strong>Outcomes:</strong> Awarded 1st place at the school science fair and received positive feedback from judges.</p>
-            <img src="solar-oven.jpg" alt="Solar Oven" />
-        </article>
-        <!-- Repeat similar structure for additional projects -->
+        <div class="project-grid">
+            <article class="project" onclick="openModal('modal1')">
+                <img src="solar-oven.jpg" alt="Solar Oven">
+                <h4>Science Fair Project - Renewable Energy</h4>
+            </article>
+            <article class="project" onclick="openModal('modal2')">
+                <img src="art-project.jpg" alt="Art Project">
+                <h4>Art Project - Nature Inspired</h4>
+            </article>
+            <article class="project" onclick="openModal('modal3')">
+                <img src="code-project.jpg" alt="Code Project">
+                <h4>Web Development Project</h4>
+            </article>
+        </div>
     </section>
 
     <section id="contact">
@@ -41,6 +47,36 @@
         <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
         <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></p>
     </section>
+
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal1')">&times;</span>
+            <h4>Science Fair Project - Renewable Energy</h4>
+            <p><strong>Description:</strong> Developed a solar oven to demonstrate renewable energy principles.</p>
+            <p><strong>Process:</strong> Researched materials, built the oven, and tested its efficiency.</p>
+            <p><strong>Outcomes:</strong> Awarded 1st place at the school science fair.</p>
+        </div>
+    </div>
+
+    <div id="modal2" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal2')">&times;</span>
+            <h4>Art Project - Nature Inspired</h4>
+            <p><strong>Description:</strong> Created a series of paintings inspired by natural landscapes.</p>
+            <p><strong>Process:</strong> Explored various techniques and mediums.</p>
+            <p><strong>Outcomes:</strong> Displayed in a local gallery.</p>
+        </div>
+    </div>
+
+    <div id="modal3" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('modal3')">&times;</span>
+            <h4>Web Development Project</h4>
+            <p><strong>Description:</strong> Developed a personal website using HTML, CSS, and JavaScript.</p>
+            <p><strong>Process:</strong> Designed the layout and implemented responsive features.</p>
+            <p><strong>Outcomes:</strong> Received positive feedback from peers.</p>
+        </div>
+    </div>
 
     <footer>
         <p>&copy; 2024 Your Name. All rights reserved.</p>
