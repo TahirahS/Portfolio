@@ -1,0 +1,301 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Spectral:wght@300&display=swap');
+/* -------------------------------------------------- */
+
+html, body {
+height: 100%;
+width: 100%;
+background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+}
+    h1 {
+      font-family: 'Spectral', serif;
+      color: whitesmoke;
+    }
+
+    h2 {
+      font-family: papyrus;
+      color: whitesmoke;
+    }
+
+    h3 {
+      font-family: spectral;
+      color: whitesmoke;
+    }
+
+    h4 {
+      font-family: spectral;
+      color: whitesmoke;
+    }
+
+    h5 {
+      font-family: spectral;
+      color: whitesmoke;
+    }
+
+    h6 {
+      font-family: spectral;
+      color: whitesmoke;
+    }
+
+    p {
+      font-family: spectral;
+      color: whitesmoke;
+    }
+
+*{
+  box-sizing: border-box;
+}
+.banner{
+  background-color:rgba(red, green, blue, alpha);
+  margin: 22.5px;
+  padding: 10px;
+  height: 250px;
+  border: 3px solid navy;
+  box-shadow: 10px 5px 75px 3px aliceblue;
+  outline: 2px 1px groove gold;
+  text-transform: capitalize;
+  text-shadow: 1px 1px gold;
+  text-align: center;
+  font-size: 0.75em;
+  font-style: ob;
+}
+#tinyflame{
+  width: 75px;
+  border: 1px solid goldenrod;
+  position: absolute;
+  top: 50px;
+  right: 35px;
+
+}
+.container{
+  background-color: rgba(0,31,81, 0.6);
+  border: 3px solid navy;
+  margin: 22.5px;
+  padding: 10px;
+  height: 980px;
+}
+#cfu1{
+  border: 1px solid goldenrod;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+#cfu2{
+  border: 1px solid #F1E5AC;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+#cfu3{
+  border: 1px solid goldenrod;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+#cfu4{
+  border: 1px solid #F1E5AC;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+#cfu5{
+  border: 1px solid goldenrod;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+#cfu6{
+  border: 1px solid #F1E5AC;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+#cfu7{
+  border: 1px solid goldenrod;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+#cfu8{
+  border: 1px solid #F1E5AC;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+#cfu9{
+  border: 1px solid goldenrod;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+#cfu10{
+  border: 1px solid #F1E5AC;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+#cfu11{
+  border: 1px solid goldenrod;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+#cfu12{
+  border: 1px solid #F1E5AC;
+  padding: 5px;
+  display: block;
+  margin: 1px;
+}
+.wave{
+  background-image: repeating-linear-gradient( darkblue, #CA9703,lavender);
+  overflow: hidden;
+  height: 75px;
+  width: 80%;
+  position: relative;
+  left: 10;
+  transition: height 3s;
+}
+.wave:hover{
+  height: 270px;
+  z-index: 1;
+}
+
+#cfu4{
+  background-image: repeating-linear-gradient( darkblue, #CA9703,lavender);
+  overflow: hidden;
+  height: 75px;
+  width: 80%;
+  position: relative;
+  left: 10;
+  transition: height 3.25s;
+}
+#cfu4:hover{
+    height: 800px;
+  z-index: 1;
+}
+
+#cfu3{
+  background-image: repeating-linear-gradient( darkblue, #CA9703,lavender);
+  overflow: hidden;
+  height: 75px;
+  width: 80%;
+  position: relative;
+  left: 10;
+  transition: height 3.25s;
+}
+#cfu3:hover{
+    height: 600px;
+  z-index: 1;
+}
+
+#cfu5{
+  background-image: repeating-linear-gradient( darkblue, #CA9703,lavender);
+  overflow: hidden;
+  height: 75px;
+  width: 80%;
+  position: relative;
+  left: 10;
+  transition: height 3.25s;
+}
+#cfu5:hover{
+    height: 450px;
+  z-index: 1;
+}
+
+#cfu7{
+  background-image: repeating-linear-gradient( darkblue, #CA9703,lavender);
+  overflow: hidden;
+  height: 75px;
+  width: 80%;
+  position: relative;
+  left: 10;
+  transition: height 3.25s;
+}
+#cfu7:hover{
+    height: 500px;
+  z-index: 1;
+}
+
+#cfu10{
+  background-image: repeating-linear-gradient( darkblue, #CA9703,lavender);
+  overflow: hidden;
+  height: 75px;
+  width: 80%;
+  position: relative;
+  left: 10;
+  transition: height 3.25s;
+}
+#cfu10:hover{
+    height: 425px;
+  z-index: 1;
+}
+iframe{
+  z-index: 1;
+}
+
+.menu{
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  font-family: papyrus;
+  font-size: 1em;
+  color: ghostwhite;
+  text-transform: capitalize;
+  text-shadow: 1px 1px gold;
+  overflow: hidden;
+  width: 100px;
+}
+/* edit the colors here*/
+.menu a{
+  background-color: lavender;
+  color: ghostwhite;
+  font-size: 1em;
+  padding: 1px;
+  display: none;
+}
+/*----------------------------------------------------------------------------------------------*/
+.menu:hover a{
+  height: 50px;
+  background-color: darkgoldenrod;
+  display: block;
+}
+
+.menu a:hover{
+  background-color: navy;
+}
+#Code{
+  width: 50%;
+  position: relative;
+}
+
+#App{
+width: 100%;  
+}
+
+#ConditionalContainer{
+  width: 60%;
+  height: 800px;
+}
+
+
+#RightColumn{
+  width: 45%;
+  position: absolute;
+  right: 40px;
+  border: 1px solid navy;
+}
+
+#RightColumn img{
+  float: right;
+}
+
+#LeftColumn{
+  width: 45%;
+  position: absolute;
+  left: 40px;
+  border: 1px solid navy;
+  text-align: left;
+}
+.container{
+  margin:auto;
+}
