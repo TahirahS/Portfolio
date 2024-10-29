@@ -1,118 +1,51 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <title>Final Portfolio</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="icon" type="image/png" href="images/NewFS.png">
-  <style>
-    #banner {
-      position: absolute;
-      width: 400px;
-      height: 200px;
-      position: fixed;
-      background-color: argb;
-      top: 5px;
-      left: 50%;
-      margin-top: 60px;
-      margin-left: -50%;
-    }
-
-    h5 {
-      color: white;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <script src="script.js"></script>
-  <nav id="navbar" class="navbar navbar-expand-sm bg-dark navbar-dark">
-    <div class="container-fluid ">
-      <ul class="navbar-nav inline-list">
-        <li class="nav-item inline-list">
-          <a class="nav-link active"
-            href="https://7f1674c5-8fe6-4f4f-9e6d-ba4f61e08a84-00-x9t51ujz5otl.janeway.replit.dev/"> <button
-              type="button" class="btn btn-light">Home</button></a>
-        </li>
-        </a>
-        </li>
-        <li class="nav-item inline-list">
-          <a class="nav-link active" href="https://github.com/TahirahS/G4C_game" target="_blank"><button type="button"
-              class="btn btn-light">G4C</button>
-          </a>
-        </li>
-        <li class="nav-item inline-list">
-          <a class="nav-link active" href="Infy.html" target="_blank"><button type="button"
-              class="btn btn-light">INFY</button></a>
-        </li>
-        <li class="nav-item inline-list">
-          <a class="nav-link active" href="https://tahirahs.github.io/InfyAppChallenge/" target="_blank"><button
-              type="button" class="btn btn-light">InfyWebsite</button></a>
-        </li>
-        <li class="nav-item inline-list">
-          <a class="nav-link active" href="avatar.html" target="_blank"><button type="button"
-              class="btn btn-light">Avatar</button></a>
-        </li>
-        <li class="nav-item inline-list">
-          <a class="nav-link active" href="animation.html" target="_blank"><button type="button"
-              class="btn btn-light">Animation</button></a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+    <header>
+        <h1>Your Name</h1>
+        <h2>Graduation Year: 2024</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h3>About Me</h3>
+        <p>Write a brief introduction about yourself here. Mention your interests and what you hope to achieve.</p>
+    </section>
 
-  <div id="spacer"></div>
-  <center>
-    <div class="container">
-      <img src="images/background.png" alt="lights" style="width:100%;">
-      <div id="overlay" class="centered">
-        <h5 style="font-family: papyrus, Times New Roman;">Thomas A. Edison C.T.E. High School</h5>
-        <h5 style="font-family: papyrus, Times New Roman; ">Programming and Prototyping</h5>
-        <h5 style=" font-family: papyrus;">Final Portfolio</h5>
-        <h6 style=" font-family: papyrus;">by Tahirah</h6>
-      </div>
-    </div>
-    <br>
-    <div class="container  mt-5">
-      <div class="row">
-        <div class="col-sm-3 border">
-          <h2>About Me</h2>
-          <div class=""><img class="rounded" src="images/cat.png" width="100px"></div>
-          <p>I am a student of Thomas Edison in the Devops and Project Management class for Web and App Development. I am
-            currently in 12th grade, and I will be graduating high school this year and starting college next year. 
-            This is a final portfolio that will include all of the projects I have created during high school.</p>
-          <hr class="d-sm-none">
-        </div>
-        <div class="col-sm-8 border center">
-          <h2>About this website:</h2>
-          <h5>This page uses Bootstrap</h5>
-          <p>This is a Final Portfolio</p>
-          <p></p>
+    <section id="projects">
+        <h3>Projects</h3>
+        <article>
+            <h4>Science Fair Project - Renewable Energy</h4>
+            <p><strong>Description:</strong> Developed a solar oven to demonstrate renewable energy principles.</p>
+            <p><strong>Process:</strong> Researched materials, built the oven, and tested its efficiency.</p>
+            <p><strong>Outcomes:</strong> Awarded 1st place at the school science fair and received positive feedback from judges.</p>
+            <img src="solar-oven.jpg" alt="Solar Oven" />
+        </article>
+        <!-- Repeat similar structure for additional projects -->
+    </section>
 
-          <h2 class="mt-5">Note</h2>
-          <h5>This is the homepage for my portfolio.</h5>
-          <p>It includes buttons in the navbar to take you to other projects I have worked on.</p>
-          <p>This is a collection of the projects and presentations I have worked on this year.<br>
-          <ul>
-            <li>G4C takes you to my game that I created for the G4C challenge this year.</li>
-            <li>INFY takes you to the slides/presentation I created for the Infy App Competition which ran from
-              Februrary to June.</li>
-            <li>InfyWebsite will show you the website my whole group created together for the Infy Challenge.</li>
-            <li>Avatar will take you to the avatar I created using python simple shapes to create a nice image.</li>
-            <li>Animation will take you to the animation I created using python code to make an animation that moves and
-              looks good.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <footer class="mt-5 p-4 bg-dark text-white text-center">
-      <p>by Tahirah<br><br>tsid5989@taehs.org</p>
+    <section id="contact">
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/yourprofile" target="_blank">Your LinkedIn Profile</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
     </footer>
-  </center>
 
+    <script src="script.js"></script>
 </body>
-
 </html>
