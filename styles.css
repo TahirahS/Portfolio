@@ -71,6 +71,7 @@ footer {
     padding: 10px;
     background-color: #0A122A; /* Dark color for footer */
     color: white;
+    position: fixed;
 }
 
 /* Responsive styles */
