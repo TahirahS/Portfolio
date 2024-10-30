@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #CCFBFE; /* Lightest color */
@@ -10,6 +14,9 @@ header {
     background-color: #E8B9AB; /* Second color */
     padding: 20px;
     text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav ul {
@@ -25,13 +32,23 @@ nav ul li {
 nav a {
     color: #0A122A; /* Dark color for links */
     text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('your-background-image.jpg'); /* Add your image */
+    background-size: cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
 }
 
 section {
-    padding: 20px;
-    margin: 10px;
+    padding: 40px 20px;
+    margin: 20px 0;
     background-color: #668586; /* Third color */
     color: white;
+    border-radius: 8px;
 }
 
 .gallery {
@@ -45,7 +62,13 @@ section {
     margin: 10px;
     padding: 15px;
     flex: 1 1 30%;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-5px);
 }
 
 form {
@@ -56,6 +79,8 @@ form {
 form input, form textarea {
     margin: 10px 0;
     padding: 10px;
+    border: none;
+    border-radius: 5px;
 }
 
 form button {
@@ -63,15 +88,20 @@ form button {
     color: white;
     padding: 10px;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #E8B9AB; /* Change on hover */
 }
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #0A122A; /* Dark color for footer */
     color: white;
-    position: fixed;
 }
 
 /* Responsive styles */
