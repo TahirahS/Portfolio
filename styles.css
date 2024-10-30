@@ -6,7 +6,6 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #CCFBFE; /* Lightest color */
     color: #0A122A; /* Dark color for text */
 }
 
@@ -14,7 +13,8 @@ header {
     background-color: #E8B9AB; /* Second color */
     padding: 20px;
     text-align: center;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 1000;
 }
@@ -35,20 +35,34 @@ nav a {
     font-weight: bold;
 }
 
-.hero {
-    background-image: url('your-background-image.jpg'); /* Add your image */
+.parallax {
+    background-image: url('your-parallax-background.jpg'); /* Replace with your image */
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    padding: 100px 20px;
+    position: relative;
+}
+
+.hero-content {
     text-align: center;
 }
 
-section {
+.about, .contact {
     padding: 40px 20px;
-    margin: 20px 0;
+    text-align: center;
     background-color: #668586; /* Third color */
     color: white;
-    border-radius: 8px;
+}
+
+.project-content {
+    position: relative;
+    z-index: 1;
 }
 
 .gallery {
@@ -74,6 +88,9 @@ section {
 form {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Center form on larger screens */
+    margin: auto;
 }
 
 form input, form textarea {
