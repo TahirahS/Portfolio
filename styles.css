@@ -34,36 +34,10 @@ section {
     color: white;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 .project {
     background-color: #E8B9AB; /* Second color for project sections */
-    margin: 10px;
-    padding: 15px;
-    flex: 1 1 30%;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-}
-
-form input, form textarea {
     margin: 10px 0;
     padding: 10px;
-}
-
-form button {
-    background-color: #0A122A; /* Dark color for button */
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
 }
 
 footer {
@@ -71,11 +45,4 @@ footer {
     padding: 10px;
     background-color: #0A122A; /* Dark color for footer */
     color: white;
-}
-
-/* Responsive styles */
-@media (max-width: 600px) {
-    .gallery {
-        flex-direction: column;
-    }
 }
