@@ -3,67 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <meta name="author" content="Your Name">
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
+
+    <!-- Navigation Bar -->
     <header>
-        <h1>My Portfolio</h1>
         <nav>
             <ul>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#activities">Extracurriculars</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="parallax" id="hero">
-        <div class="hero-content">
-            <h2>Welcome to My Creative World</h2>
-            <p>Explore my projects and discover my journey through high school.</p>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="intro">
+            <h1>Hello, I'm [Your Name]</h1>
+            <p>Welcome to my portfolio. Explore my academic projects, extracurriculars, and more!</p>
+            <a href="#about" class="btn">Learn More</a>
         </div>
     </section>
 
-    <section class="about" id="about">
+    <!-- About Me Section -->
+    <section id="about">
         <h2>About Me</h2>
-        <p>I'm passionate about creating and learning. Here you'll find a selection of my projects from high school.</p>
-    </section>
-
-    <section class="parallax" id="projects">
-        <div class="project-content">
-            <h2>Projects</h2>
-            <div class="gallery">
-                <div class="project">
-                    <h3>Project Title 1</h3>
-                    <p>Description of project 1.</p>
-                </div>
-                <div class="project">
-                    <h3>Project Title 2</h3>
-                    <p>Description of project 2.</p>
-                </div>
-                <div class="project">
-                    <h3>Project Title 3</h3>
-                    <p>Description of project 3.</p>
-                </div>
-                <!-- Add more projects as needed -->
-            </div>
+        <div class="about-container">
+            <img src="your-photo.jpg" alt="Your Photo" class="profile-img">
+            <p>I'm a high school student passionate about [insert subjects, activities, or career interests]. I aspire to pursue [insert college/career aspirations].</p>
         </div>
     </section>
 
-    <section class="contact" id="contact">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send</button>
+    <!-- Academic Projects Section -->
+    <section id="projects">
+        <h2>Academic Projects</h2>
+        <div class="projects-container">
+            <article class="project">
+                <img src="project1-thumbnail.jpg" alt="Project 1" class="project-img">
+                <h3>Project Title 1</h3>
+                <p>A brief description of the project. This could include the subject, the technologies you used, and your role in the project.</p>
+                <a href="link-to-project" class="btn">View Project</a>
+            </article>
+            <article class="project">
+                <img src="project2-thumbnail.jpg" alt="Project 2" class="project-img">
+                <h3>Project Title 2</h3>
+                <p>A brief description of the project. Discuss what you learned and how it contributes to your skills and goals.</p>
+                <a href="link-to-project" class="btn">View Project</a>
+            </article>
+            <!-- Add more project entries here -->
+        </div>
+    </section>
+
+    <!-- Extracurricular Activities Section -->
+    <section id="activities">
+        <h2>Extracurricular Activities</h2>
+        <div class="activities-list">
+            <div class="activity">
+                <h3>Volunteer at [Organization]</h3>
+                <p>Role: [Your role in the organization]</p>
+                <p>Description: [What you did, how you contributed]</p>
+            </div>
+            <div class="activity">
+                <h3>Member of [Club]</h3>
+                <p>Role: [Your role in the club]</p>
+                <p>Description: [What you learned, any notable achievements]</p>
+            </div>
+            <!-- Add more activities here -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via email or through the form below!</p>
+        <form action="submit-form.php" method="POST" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
         </form>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 My Portfolio</p>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://linkedin.com/in/your-profile" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/your-username" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="mailto:youremail@example.com"><i class="fas fa-envelope"></i></a></li>
+        </ul>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
