@@ -1,1 +1,66 @@
-//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Your Name">
+    <title>Tahirah - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#activities">Extracurriculars</a></li>
+                <li><a target = "new" href= "resume.html">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="resume">
+        <div>
+            <h1>Resume</h1>
+            <p>This is my resume of my experiences, awards, and certifications throughout high school.</p>
+            <iframe src="https://docs.google.com/document/d/e/2PACX-1vRBX0AGr0SfdiThb07aaJ9j9zwtGhqQELtYhzWa1Lcgx3s1qn-BjyHyi0mMFykrA4oFAURnE3saw5Mv/pub"
+   width="800" height="600">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Feel free to reach out to me via email or through the form below!</p>
+        <form action="https://formspree.io/f/mrbgpnlk" method="POST" class="contact-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Tahirah Siddique. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/tahirah-siddique-495632264/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/TahirahS" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li><a href="mailto:tsid5989@taehs.org"><i class="fas fa-envelope"></i></a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
